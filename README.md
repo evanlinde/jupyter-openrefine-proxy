@@ -2,7 +2,7 @@
 
 **jupyter-openrefine-proxy** provides Jupyter server and notebook extensions to proxy [OpenRefine](https://openrefine.org/).
 
-If you have a JupyterHub deployment, jupyter-openrefine-proxy can take advantage of JupyterHub's existing authenticator and spawner to launch RStudio in users' Jupyter environments. You can also run this from within Jupyter.
+If you have a JupyterHub deployment, jupyter-openrefine-proxy can take advantage of JupyterHub's existing authenticator and spawner to launch OpenRefine in users' Jupyter environments. You can also run this from within Jupyter.
 
 This is a convenience package built from the template in [jupyter-server-proxy](https://github.com/jupyterhub/jupyter-server-proxy) with some additional features and readme text copied/modeled after [jupyter-rsession-proxy](https://github.com/jupyterhub/jupyter-rsession-proxy).
 
