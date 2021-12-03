@@ -35,6 +35,9 @@ def setup_openrefine():
         'command': _get_cmd,
         'timeout': 15,
         'environment': {},
+        'request_headers_override': {
+            'Host': '127.0.0.1'
+        }
         'launcher_entry': {
             'title': 'OpenRefine',
             'icon_path': os.path.join(os.path.dirname(os.path.abspath(__file__)), 'icons', 'openrefine.svg')
