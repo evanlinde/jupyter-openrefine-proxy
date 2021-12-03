@@ -33,6 +33,7 @@ def setup_openrefine():
 
     return {
         'command': _get_cmd,
+        'timeout': 15,
         'environment': {},
         'launcher_entry': {
             'title': 'OpenRefine',
